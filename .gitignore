@@ -1,0 +1,29 @@
+# Python venvs
+.venv/
+env/
+venv/
+
+# Secrets
+.env
+
+# Generated at install time from `python -m klippbok ... --help`
+docs/cli_help.txt
+
+# Python bytecode + build artifacts
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Personal Claude Code settings (keep .claude/learnings.md tracked)
+.claude/settings.local.json
